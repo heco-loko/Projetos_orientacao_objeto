@@ -1,1 +1,0 @@
-"""Esse projeto tem como objetivo criar uma calculadora usando Orientação a Obejtos"""
