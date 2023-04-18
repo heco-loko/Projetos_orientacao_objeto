@@ -1,10 +1,28 @@
 class Calculadora():
-    def __init__(self, numero1: float, numero2: float):
-        self.numero1 = numero1
-        self.numero2 = numero2 
-        print(f'Os numeros escolhidos são {self.numero1} e {self.numero2}')
+    def __init__(self, expressao):
+        pass
   
-    def soma(self):
-        return self.numero1 + self.numero2
-  
-Calculadora(1,2)
+    def soma(self, num1: float, num2: float):
+        return print(f'{num1 + num2}')
+    
+    def subtracao(self, num1: float, num2: float):
+        return print(num1 - num2)
+
+    def multiplicacao(self, num1: float, num2: float):
+        return print(num1*num2)
+
+    def divisao(self, num1: float, num2: float):
+        return print(num1/num2)
+
+   
+    def potencia(self, num1: float, num2: float):
+        print(num1**num2)
+        
+    def porcentagem(self):
+        pass
+    
+    def imprimir_resultado():
+        pass
+    
+calculadora = Calculadora()
+calculadora.subtracao(2,3)
